@@ -14,7 +14,7 @@ class PersonTest {
     void setName() {
         Person person = new Person("Gabriel", "male", "gaba", "GB", 17);
         person.setName("Joseph");
-        assertEquals("Joseph", Person.getName());
+        assertEquals("Joseph", person.getName());
 
     }
 
@@ -28,7 +28,7 @@ class PersonTest {
     void setGender() {
         Person person = new Person("Gabriel", "male", "gaba", "GB", 17);
         person.setGender("female");
-        assertEquals("female", Person.getGender());
+        assertEquals("female", person.getGender());
     }
 
     @org.junit.jupiter.api.Test
@@ -40,7 +40,7 @@ class PersonTest {
     @org.junit.jupiter.api.Test
     void setEmail() {Person person = new Person("Gabriel", "male", "gaba", "GB", 17);
         person.setEmail("gabson");
-        assertEquals("gabson", Person.getEmail());
+        assertEquals("gabson", person.getEmail());
     }
 
     @org.junit.jupiter.api.Test
@@ -53,7 +53,7 @@ class PersonTest {
     @org.junit.jupiter.api.Test
     void setAddress() {Person person = new Person("Gabriel", "male", "gaba", "GB", 17);
         person.setAddress("AB");
-        assertEquals("AB", Person.getAddress());
+        assertEquals("AB", person.getAddress());
     }
 
     @org.junit.jupiter.api.Test
@@ -65,6 +65,6 @@ class PersonTest {
     @org.junit.jupiter.api.Test
     void setAge() {Person person = new Person("Gabriel", "male", "gaba", "GB", 17);
         person.setAge(11);
-        assertEquals(11, Person.getAge());
+        assertEquals(11, person.getAge());
     }
 }

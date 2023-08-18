@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac012c3f-80c4-4b92-830c-e0072825bc43" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Services/ServicesImplementation/PrincipalServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Entity/Applicant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Entity/Applicant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Entity/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Entity/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Services/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Services/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Services/PrincipalServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Services/PrincipalServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ServicesImplementation/CourseServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Services/ServicesImplementation/CourseServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ServicesImplementation/PrincipalServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Entity/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Entity/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Entity/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Entity/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ServicesImplementation/CourseServiceImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ServicesImplementation/CourseServiceImpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ServicesImplementation/PrincipalServiceImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ServicesImplementation/PrincipalServiceImpTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +36,8 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -42,11 +58,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/decagon/Desktop/Decagon_Assignment/Week one/weekone&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -55,6 +73,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.example.ServicesImplementation" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example.Model" />
@@ -117,7 +138,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchoolTest.setPrincipal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SchoolTest.getTeachers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="weekone" />
       <extension name="coverage">
         <pattern>
@@ -127,7 +148,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.Model" />
       <option name="MAIN_CLASS_NAME" value="org.example.Model.SchoolTest" />
-      <option name="METHOD_NAME" value="setPrincipal" />
+      <option name="METHOD_NAME" value="getTeachers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,9 +158,9 @@
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in weekone" />
-        <item itemvalue="JUnit.SchoolTest" />
         <item itemvalue="JUnit.SchoolTest.getPrincipal" />
-        <item itemvalue="JUnit.SchoolTest.setPrincipal" />
+        <item itemvalue="JUnit.SchoolTest.getTeachers" />
+        <item itemvalue="JUnit.SchoolTest" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +201,6 @@
     <SUITE FILE_PATH="coverage/weekone$SchoolTest.ic" NAME="SchoolTest Coverage Results" MODIFIED="1686962956968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.Model.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/weekone$All_in_weekone.ic" NAME="All in weekone Coverage Results" MODIFIED="1686992354397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/weekone$All_in_weekone.ic" NAME="All in weekone Coverage Results" MODIFIED="1687032523178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -55,6 +55,14 @@ public class Staff extends Person {
         this.role = role;
     }
 
+    @Override
+    public String toString() {
+        return "Staff{" +
+                "level='" + level + '\'' +
+                ", salary=" + salary +
+                ", role='" + role + '\'' +
+                '}';
+    }
 }
 
 

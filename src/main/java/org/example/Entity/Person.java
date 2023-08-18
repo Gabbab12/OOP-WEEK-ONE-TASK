@@ -1,11 +1,11 @@
 package org.example.Entity;
 
 public class Person {
-    private static String name;
-    private static String gender;
-    private static String email;
-    private static String address;
-    private static int age;
+    private String name;
+    private String gender;
+    private String email;
+    private String address;
+    private int age;
 
     public Person(String name, String gender, String email, String address, int age) {
         this.name = name;
@@ -21,43 +21,53 @@ public class Person {
 
 //    public Person() {}
 
-    public static String getName() {
-        return name;
+    public String getName() {
+        return this.name;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public static String getGender() {
-        return gender;
+    public String getGender() {
+        return this.gender;
     }
 
     public void setGender(String gender) {
         this.gender = gender;
     }
 
-    public static String getEmail() {
-        return email;
+    public String getEmail() {
+        return this.email;
     }
 
     public void setEmail(String email) {
         this.email = email;
     }
 
-    public static String getAddress() {
-        return address;
+    public String getAddress() {
+        return this.address;
     }
 
     public void setAddress(String address) {
         this.address = address;
     }
-
-    public static int getAge() {
-        return age;
+    public int getAge() {
+        return this.age;
     }
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", gender='" + gender + '\'' +
+                ", email='" + email + '\'' +
+                ", address='" + address + '\'' +
+                ", age=" + age +
+                '}';
     }
 }

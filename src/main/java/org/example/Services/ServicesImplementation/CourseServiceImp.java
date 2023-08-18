@@ -1,4 +1,4 @@
-package org.example.ServicesImplementation;
+package org.example.Services.ServicesImplementation;
 
 import org.example.Entity.Student;
 import org.example.Model.Course;
@@ -6,11 +6,10 @@ import org.example.Services.CourseService;
 
 import javax.management.relation.Role;
 
-public abstract class CourseServiceImp implements CourseService {
-
+public class CourseServiceImp implements CourseService {
 
     @Override
-    public String takeCourse() {
+    public void takeCourse(Course course, org.example.Enum.Role teacher) {
         if (Student.getDepartment() == "Science"){
             System.out.println("You can go in to the class to take the course");
         }else
@@ -21,10 +20,6 @@ public abstract class CourseServiceImp implements CourseService {
         } else {
             System.out.println("You are eligible to sit down for this course");
         }
-        return null;
+
     }
-
-    public abstract String takeCourse(Student student, Role teacher);
-
-    public abstract String takeCourse(Course course, Role teacher);
 }

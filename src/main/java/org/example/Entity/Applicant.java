@@ -1,6 +1,6 @@
 package org.example.Entity;
 
-public class Applicant extends Person{
+public class Applicant extends Person {
     private String fullName;
     private String phoneNumber;
     private String dateOfBirth;
@@ -36,5 +36,14 @@ public class Applicant extends Person{
 
     public void setDateOfBirth(String dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
+    }
+
+    @Override
+    public String toString() {
+        return "Applicant{" +
+                "fullName='" + fullName + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", dateOfBirth='" + dateOfBirth + '\'' +
+                '}';
     }
 }
